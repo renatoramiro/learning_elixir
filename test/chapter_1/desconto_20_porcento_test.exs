@@ -1,5 +1,7 @@
 defmodule Chapter1.Desconto20PorcentoTest do
 	use ExUnit.Case
+	doctest Chapter1.Desconto20Porcento
+
 	alias Chapter1.Desconto20Porcento
 
 	describe "vinte_porcento/1" do
@@ -16,6 +18,7 @@ defmodule Chapter1.Desconto20PorcentoTest do
 			itens = [%{value: 100.0}, %{value: 200.0}, %{value: 300.0}]
 			actual = Desconto20Porcento.somar_valores_acima_de_cem(itens)
 			expected = 500.0
+			assert actual == expected
 		end
 	end
 end

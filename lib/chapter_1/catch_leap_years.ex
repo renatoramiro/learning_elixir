@@ -4,7 +4,7 @@ defmodule Chapter1.CatchLeapYears do
 	"""
 
 	@doc """
-		Returns a list with all leap years
+		Returns a list with all leap years using List Comprehension
 
 	## Example
 
@@ -18,7 +18,7 @@ defmodule Chapter1.CatchLeapYears do
 	end
 
 	@doc """
-		Returns a list with all leap years
+		Returns a list with all leap years using Recursion
 
 	## Example
 
